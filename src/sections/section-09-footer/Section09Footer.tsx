@@ -13,12 +13,12 @@ export default function Section09Footer() {
           <p>Let’s build something impactful together.</p>
         </div>
         <div className="attach-footer-actions">
-          <a className="attach-footer-contact" href="mailto:">Contact Me <img src={`${icons}/send.svg`} alt="" /></a>
+          <a className="attach-footer-contact" href="mailto:shrutipandey040307@gmail.com">Contact Me <img src={`${icons}/send.svg`} alt="" /></a>
           <a className="attach-footer-projects" href="/?section=8">Explore More Projects <img src={`${icons}/arrow-right.svg`} alt="" /></a>
         </div>
         <div className="attach-footer-links" aria-label="Contact options">
-          <a href="mailto:"><img src={`${icons}/email.svg`} alt="" />Email</a>
-          <a href="#linkedin"><img src={`${icons}/linkedin.svg`} alt="" />LinkedIn</a>
+          <a href="mailto:shrutipandey040307@gmail.com"><img src={`${icons}/email.svg`} alt="" />Email</a>
+          <a href="https://www.linkedin.com/in/shruti-pandey-0a7715243/"><img src={`${icons}/linkedin.svg`} alt="" />LinkedIn</a>
           <a href="tel:"><img src={`${icons}/phone.svg`} alt="" />Phone no.</a>
         </div>
       </div>
