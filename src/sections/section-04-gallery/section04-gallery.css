@@ -1,0 +1,9 @@
+.attach-section-04 { container-type:inline-size; position:relative; width:100%; aspect-ratio:1440/903; overflow:hidden; background:#15151d; }
+.attach-section-04-panel { position:absolute; top:2.2917cqw; left:5.9028cqw; width:88.1944cqw; height:59.375cqw; overflow:hidden; border-radius:1.3889cqw; background:#100d16; }
+.attach-section-04-column { position:absolute; display:flex; width:17.2917cqw; flex-direction:column; gap:1.6667cqw; }
+.attach-section-04-column img { display:block; width:100%; height:auto; max-width:none; border-radius:.35cqw; }
+.attach-section-04-column--one { top:-13.9583cqw; left:-4.0972cqw; }
+.attach-section-04-column--two { top:-2.2917cqw; left:14.8611cqw; }
+.attach-section-04-column--three { top:-26.0417cqw; left:33.8194cqw; }
+.attach-section-04-column--four { top:-9.3056cqw; left:52.7778cqw; }
+.attach-section-04-column--five { top:0; left:71.7361cqw; }

@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "Inter Cover";
+  src: url("/assets/InterVariable.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+.attach-section-02 {
+  container-type: inline-size;
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1440 / 722;
+  overflow: hidden;
+  isolation: isolate;
+  background:
+    radial-gradient(ellipse 18% 30% at 0% 100%, rgb(48 88 151 / 55%), transparent 76%),
+    radial-gradient(ellipse 20% 34% at 100% -3%, rgb(88 47 140 / 76%), transparent 76%),
+    radial-gradient(ellipse 24% 45% at 56% 70%, rgb(48 31 25 / 10%), transparent 80%),
+    radial-gradient(ellipse 14% 22% at 14% 0%, rgb(25 54 65 / 15%), transparent 100%),
+    radial-gradient(ellipse 13% 22% at 45% -4%, rgb(65 34 49 / 15%), transparent 100%),
+    radial-gradient(ellipse 14% 35% at 28% 28%, rgb(42 13 106 / 18%), transparent 100%),
+    radial-gradient(ellipse 28% 24% at 27% -7%, rgb(35 45 58 / 38%), transparent 100%),
+    radial-gradient(ellipse 30% 62% at 24% 5%, rgb(49 18 91 / 70%), transparent 94%),
+    #131313;
+  color: #fff;
+  font-family: "Inter Cover", Arial, sans-serif;
+}
+
+.attach-section-02__copy {
+  position: absolute;
+  z-index: 1;
+  top: 34.626%;
+  left: 4.8611%;
+  width: 38.4028%;
+}
+
+.attach-section-02__copy h1 {
+  margin: 0 0 1.3889cqw;
+  font-size: 6.25cqw;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 0.79;
+  transform: translateX(2px) scaleX(1.06);
+  transform-origin: left center;
+}
+
+.attach-section-02__copy p {
+  width: 100%;
+  margin: 0;
+  font-size: 1.3889cqw;
+  font-weight: 400;
+  line-height: 1.76;
+  transform: translateY(1px) scaleX(1.031);
+  transform-origin: left top;
+}
+
+.attach-section-02__phone {
+  position: absolute;
+  top: 18.5596%;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.attach-section-02__phone img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: none;
+}
+
+.attach-section-02__phone--splash {
+  left: 56.8056%;
+  width: 19.1771%;
+}
+
+.attach-section-02__phone--home {
+  left: 77.7778%;
+  width: 18.75%;
+}
+
+@media (max-width: 700px) {
+  .attach-section-02 {
+    min-height: 810px;
+    aspect-ratio: auto;
+  }
+
+  .attach-section-02__copy {
+    top: 120px;
+    left: 6%;
+    width: 88%;
+  }
+
+  .attach-section-02__copy h1 {
+    margin-bottom: 10px;
+    font-size: clamp(48px, 11cqw, 76px);
+    letter-spacing: -2px;
+  }
+
+  .attach-section-02__copy p {
+    max-width: 540px;
+    font-size: clamp(15px, 3.3cqw, 19px);
+    line-height: 1.55;
+  }
+
+  .attach-section-02__phone {
+    top: 400px;
+  }
+
+  .attach-section-02__phone--splash {
+    left: 7%;
+    width: 44%;
+  }
+
+  .attach-section-02__phone--home {
+    left: 54%;
+    width: 43%;
+  }
+}

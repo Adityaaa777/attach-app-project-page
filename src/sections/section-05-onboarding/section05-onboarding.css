@@ -1,0 +1,33 @@
+.attach-section-05 {
+  container-type: inline-size;
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1440 / 826;
+  overflow: hidden;
+  background: #15151d;
+}
+
+.attach-section-05-panel {
+  position: absolute;
+  top: 1.9444cqw;
+  left: 5.9028cqw;
+  width: 88.1944cqw;
+  height: 53.4722cqw;
+  border-radius: 1.3889cqw;
+  background: #0b0b0f;
+}
+
+.attach-section-05-screens {
+  position: absolute;
+  top: 6.6667cqw;
+  left: 17.6389cqw;
+  display: flex;
+  gap: 1.25cqw;
+}
+
+.attach-section-05-screens img {
+  display: block;
+  width: 20.8333cqw;
+  height: auto;
+  max-width: none;
+}

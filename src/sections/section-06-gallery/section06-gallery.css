@@ -1,0 +1,29 @@
+.attach-section-06 {
+  container-type: inline-size;
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1440 / 938;
+  overflow: hidden;
+  background: #15151d;
+}
+
+.attach-section-06-column {
+  position: absolute;
+  display: flex;
+  width: 17.2917cqw;
+  flex-direction: column;
+  gap: 1.6667cqw;
+}
+
+.attach-section-06-column img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: none;
+}
+
+.attach-section-06-column--1 { top: -26.3194cqw; left: 4.375cqw; }
+.attach-section-06-column--2 { top: -2.3611cqw; left: 23.3333cqw; }
+.attach-section-06-column--3 { top: -9.0972cqw; left: 42.2917cqw; }
+.attach-section-06-column--4 { top: .2778cqw; left: 61.25cqw; }
+.attach-section-06-column--5 { top: 2.2222cqw; left: 80.2083cqw; }
