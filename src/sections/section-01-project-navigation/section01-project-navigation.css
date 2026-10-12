@@ -18,6 +18,12 @@
   line-height: 1;
   text-decoration: none;
   white-space: nowrap;
+  transition: color 160ms ease, transform 160ms ease;
+}
+
+.attach-section-01-link:hover {
+  color: #c6b3ff;
+  transform: translateY(-3px);
 }
 
 .attach-section-01-link:focus-visible {
